@@ -11,6 +11,8 @@ Due to an upstream restriction imposed on us by [pkg](https://github.com/zeit/pk
 :::
 
 ```bash
+# Install build requirements
+yarn install
 # Build the Lando CLI binary
 yarn run build:cli
 # Navigate to the prebuilt binaries
